@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class CurrencyCalculator {
-    private static final double EXCHANGE_RATE = 60.0; // Курс обмена: 1 доллар = 60 рублей
+    private static final double EXCHANGE_RATE = 60.0; 
 
     public static void main(String[] args) {
         String input = "toDollars(737р + toRubles($85.4))";
@@ -11,7 +11,7 @@ public class CurrencyCalculator {
     }
 
     public static double calculate(String input) {
-        String expression = input.replaceAll("\\s", ""); // Удаляем пробелы из входной строки
+        String expression = input.replaceAll("\\s", "");
         return evaluateExpression(expression);
     }
 
