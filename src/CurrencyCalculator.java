@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class CurrencyCalculator {
-    private static final double EXCHANGE_RATE = 60.0; 
+    private static final double EXCHANGE_RATE = 97.31; 
 
     public static void main(String[] args) {
         String input = "toDollars(737р + toRubles($85.4))";
