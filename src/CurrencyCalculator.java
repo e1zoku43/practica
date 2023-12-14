@@ -4,6 +4,7 @@ import java.math.RoundingMode;
 public class CurrencyCalculator {
     private static final double EXCHANGE_RATE = 97.31; 
 
+    
     public static void main(String[] args) {
         String input = "toDollars(737р + toRubles($85.4))";
         double result = calculate(input);
